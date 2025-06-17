@@ -19,13 +19,95 @@ body {
     font-size: 2rem;
 }
 
+.title {
+    font-family: "Edu NSW ACT Hand Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #fe424d !important;
+}
+
 .nav-link {
     color: #222222;
+}
+
+.btn-search {
+    color: #fff;
+    border-radius: 0 10px 0 10px;
+    background-color: #fe424d;
+
+    &:hover {
+        background-color: #ff4867;
+    }
+}
+
+.dark_mode {
+    color: #fe424d;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+}
+
+.search-input {
+    border-radius: 50px;
+    width: 40vw;
+}
+
+.filter {
+    margin-top: 1rem;
+    border: none;
+    background: none;
+    opacity: 0.7;
+    font-size: 0.85rem;
+    margin-right: 1rem;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+#filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+}
+
+.toggle {
+    display: none;
+}
+
+.tax-toggle {
+    border: 1px solid black;
+    padding: 0.7rem;
+    border-radius: 5px;
+    margin: 1rem 0 0 1rem;
+}
+
+#switchCheckDefault,
+.form-check-label {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+    .form-switch>label {
+        display: none;
+    }
+
+    .icons {
+        width: 70%;
+    }
 }
 
 .f-info-links a {
     text-decoration: none;
     color: #222222;
+
     &:hover {
         text-decoration: underline;
     }
@@ -41,7 +123,8 @@ body {
     text-align: center;
 }
 
-.f-info-links, .f-info-socials {
+.f-info-links,
+.f-info-socials {
     width: 100%;
 }
 
@@ -49,7 +132,8 @@ body {
     font-size: 1.2rem;
 }
 
-.fa-instagram, .fa-linkedin {
+.fa-instagram,
+.fa-linkedin {
     margin-left: 1rem;
 }
 
@@ -72,6 +156,7 @@ body {
 /* Card effects */
 .card-img-overlay {
     opacity: 0;
+
     &:hover {
         opacity: 0.2;
         background-color: white;

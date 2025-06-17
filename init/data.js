@@ -152,6 +152,11 @@ const sampleListings = [
     location: "Miami",
     country: "United States",
   },
+
+
+  // Completed
+
+
   {
     title: "Tropical Villa in Phuket",
     description:
