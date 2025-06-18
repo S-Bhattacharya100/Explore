@@ -10,7 +10,7 @@ body {
 }
 
 .navbar {
-    height: 5rem;
+    /* height: 5rem; */
     background-color: white;
 }
 
@@ -52,6 +52,10 @@ body {
 .search-input {
     border-radius: 50px;
     width: 40vw;
+}
+
+.navbar-collapse {
+    margin-top: 0.7rem;
 }
 
 .filter {
@@ -101,6 +105,10 @@ body {
 
     .icons {
         width: 70%;
+    }
+
+    .search-input {
+        width: 80vmin;
     }
 }
 
